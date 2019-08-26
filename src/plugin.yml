@@ -1,0 +1,6 @@
+name: wDrop
+description: Drop Plugin.
+version: 0.1
+author: WildFire
+softdepend: [wAPI]
+main: pl.wildfire.drop.DropPlugin

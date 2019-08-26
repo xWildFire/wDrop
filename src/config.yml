@@ -1,0 +1,92 @@
+procent:
+  diament: 0.75
+  szmaragd: 0.9
+  zloto: 1.0
+  zelazo: 1.5
+  wegiel: 3.0
+  perly: 0.4
+  redstone: 1.6
+  slimeball: 0.5
+event-procent:
+  diament: 1.0
+  szmaragd: 1.2
+  zloto: 1.5
+  zelazo: 1.8
+  wegiel: 3.1
+  perly: 0.8
+  redstone: 2.1
+  slimeball: 1.0
+  exp: 140
+pkt:
+  szmaragd: 12
+  diament: 15
+  zelazo: 7
+  zloto: 8
+  proch: 9
+  perly: 18
+  redstone: 6
+  wegiel: 4
+  slimeball: 16
+mysql:
+  use: false
+  host: localhost
+  db: db
+  user: user
+  pass: pass
+drops:
+  Szmaragdy:
+    chance: 0.9
+    net.karolek.drop: EMERALD
+    tool: DIAMOND_PICKAXE
+    y: 20
+    pkt: 12
+    msg: '&6Wydobyles: &2Szmaragd&7($amount) &b$pkt'
+  Diamenty:
+    chance: 0.75
+    net.karolek.drop: DIAMOND
+    tool: DIAMOND_PICKAXE,IRON_PICKAXE
+    y: 20
+    pkt: 15
+    msg: '&6Wydobyles: &bDiament&7($amount) &b$pkt'
+  Zloto:
+    chance: 1.0
+    net.karolek.drop: GOLD_ORE
+    tool: DIAMOND_PICKAXE,IRON_PICKAXE
+    y: 40
+    pkt: 8
+    msg: '&6Wydobyles: &eZloto&7($amount) &b$pkt'
+  Zelazo:
+    chance: 1.4
+    net.karolek.drop: IRON_ORE
+    tool: DIAMOND_PICKAXE,IRON_PICKAXE,GOLD_PICKAXE,STONE_PICKAXE
+    y: 40
+    pkt: 7
+    msg: '&6Wydobyles: &7Zelazo&7($amount) &b$pkt'
+  RedStone:
+    chance: 1.4
+    net.karolek.drop: REDSTONE
+    tool: DIAMOND_PICKAXE,IRON_PICKAXE
+    y: 20
+    pkt: 6
+    msg: '&6Wydobyles: &cRedStone&7($amount) &b$pkt'
+  RedStone:
+    chance: 1.6
+    net.karolek.drop: REDSTONE
+    tool: DIAMOND_PICKAXE,IRON_PICKAXE
+    y: 20
+    pkt: 6
+    msg: '&6Wydobyles: &cRedStone&7($amount) &b$pkt'
+  Perly:
+    chance: 0.4
+    net.karolek.drop: ENDER_PEARL
+    tool: DIAMOND_PICKAXE
+    y: 20
+    pkt: 18
+    msg: '&6Wydobyles: &3Perla Endermana&7($amount) &b$pkt'
+  SlimeBall:
+    chance: 0.5
+    net.karolek.drop: SLIME_BALL
+    tool: DIAMOND_PICKAXE
+    y: 20
+    pkt: 16
+    msg: '&6Wydobyles: &aSlimeBall&7($amount) &b$pkt'
